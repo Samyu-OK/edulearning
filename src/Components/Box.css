@@ -1,0 +1,46 @@
+.boxs{
+    display: flex;
+    justify-content: center;
+    margin: 5px 15px;
+    width:280px;
+    height:230px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.box-text{
+    text-align: center;
+    padding: 10px;
+    color:rgb(52, 52, 54);
+    margin-top: 5px;
+    
+}
+.box-heading{
+    color:rgb(247, 203, 81);
+}
+
+.icons{
+    width: 65px;
+    height:65px;
+    color:rgb(247, 203, 81);
+    font-weight: 200;
+    position: relative;
+    left:98px;
+    top:10px;
+    bottom: 10px;
+    padding: 8px;
+    
+}
+
+@media  (min-width:320px) and (max-width:480px) {
+    .boxs{
+        display: block;
+        margin: 0px 15px;
+        width: 90%;
+    }
+    .icons{
+        position: relative; 
+        left:85px;
+        right:0px;
+    }
+}

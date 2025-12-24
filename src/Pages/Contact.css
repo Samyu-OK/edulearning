@@ -1,0 +1,131 @@
+.contacts{
+  margin-top: 0px;
+  text-align: center;
+}
+
+.cont-title{
+  color: rgb(22, 21, 21);
+  font-weight: 600;
+}
+
+.cont-head{
+  color: rgb(14, 47, 117);
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.contact-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 0 60px;
+}
+
+.contact-dis{
+  color: rgb(26, 23, 23);
+  width: 500px;
+  margin-top: 60px;
+
+}
+
+.cont-dis{
+  font-weight: 600;
+}
+
+.call{
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 20px;
+  
+}
+
+.userforms{
+  padding: 30px;
+  width: 460px;
+  
+}
+
+.head{
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+
+.labels{
+  color: rgb(44, 42, 42);
+}
+
+.inputs{
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.input-para{
+  color: red;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.messages{
+    color:rgb(41, 38, 38);
+}
+.buttons{
+  padding: 12px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(107, 158, 199);
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.buttons:hover{
+  background-color: rgb(165, 183, 221);
+}
+
+.frame{
+    position: relative;
+    width: 45%;
+    height:100%;
+    min-height: 300px;
+    border: 0;
+    margin-top:60px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .contact-section{
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .contact-dis{
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .call{
+    text-align: left;
+  }
+
+  .userforms{
+    width: 300px;
+    padding: 10px;
+  }
+
+  .cont-head{
+    font-size: 24px;
+  }
+  .inputs{
+    width: 100%;
+  }
+  .frame{
+    width: 100%;
+  }
+}

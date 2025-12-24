@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headers{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color:whitesmoke;
+    
+    
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+}
+.head{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: rgb(6, 6, 39)
+}
+.head-container{
+    display: flex;
+    align-items: center;
+    margin: 10px 60px;
+    
+}  
+
+.navbars{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 60px;
+    margin-left: 530px;
+    color: rgb(6, 6, 39)
+} 
+
+.navbars li{
+    margin-top: 23px;
+}
+
+.navbars li:hover{
+    color: rgb(247, 203, 81);
+    cursor: pointer;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.hero-button{
+    margin-top: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(53, 52, 52);
+    background-color:rgb(247, 203, 81);;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:160px;
+}
+a{
+    text-decoration: none;
+    color: rgb(6, 6, 39)
+}
+a:hover{
+    color: rgb(247, 203, 81);
+}
+.hero-button:hover{
+    background-color: rgb(197, 157, 48);
+    color:white;
+}
+
+
+
+@media (min-width:320px) and (max-width:480px){
+.headers{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    
+}
+
+.menu-icon{
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+    color: black;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+    .head{
+        display:block;
+        margin-top: 20px;
+        
+    }
+    .head-container{
+        margin: 10px 20px;
+        width: 100%;
+        margin-left: 20px;
+        
+        
+    } 
+    .navbars{
+        margin-left: 200px;
+        margin-right: 20px;
+        gap: 20px;
+        font-size: 16px;
+        display: none;
+        position: absolute;
+        top:75px;
+        left:-220px;
+        right:20px;
+        background-color: whitesmoke;
+        height: 360px;
+        color: black;
+        width: 340px;
+        flex-direction: column;
+        padding: 2px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .navbars.navbars-open{
+        display: flex;
+    }
+
+    .hero-button{
+        margin-left: 45px;
+        padding: 10px;
+        width: 120px;
+    }
+
+    .navbars li{
+        margin: 10px 50px;
+        width: inherit;
+        
+    }
+    
+    
+}

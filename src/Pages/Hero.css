@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.hero{
+    overflow: hidden;
+    height: 120vh;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    top:0px;
+    z-index: 1;
+    
+}
+.head{
+    margin-top: 20px;
+}
+
+.hero-text{
+    z-index: 999;
+    color: rgb(27, 26, 26);
+    position: absolute;
+    top:52px;
+    text-align: start;
+    margin: 60px;
+    width: 760px;
+    padding-bottom: 50px;
+    line-height: 50px;
+    background-color: rgba(240, 248, 255, 0.192);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.head-title{
+    font-size: 20px;
+    font-weight: 200px;
+    color:white;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 20px;
+    color:rgb(24, 23, 23);
+}
+
+.para1{
+    font-size: 18px;
+    margin-top: 20px;
+    color:rgb(53, 48, 48);
+}
+
+.para2{
+    font-size: 20px;
+    margin-top: 0px;
+    color: rgb(15, 14, 14);
+}
+
+.hero-btns{
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+}
+
+.hero-buttons{
+    margin-top: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(53, 52, 52);
+    background-color:rgb(196, 216, 230);;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:160px;
+}
+
+.hero-buttons:hover{
+    background-color: rgb(172, 180, 199);
+    color:white;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px 10px;
+    gap:5px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px 10px;
+    gap:5px;
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+    .hero{
+        height: 160vh;
+        width: 100%;
+        background-position: fixed;
+        background-size: cover;
+
+    }
+    .hero-image{
+        height:145vh;
+    }
+ .hero-text{
+    position: absolute;
+    top:100px;
+    text-align: start;
+    margin: 0px;
+    width: 100%;
+    padding-bottom: 20px;
+    line-height: 40px;
+    padding: 20px;
+    height:675px;
+ }
+
+ .heading{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 48px;
+    
+}
+
+.hero-btns{
+    margin-top: 0px;
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right:20px;
+}
+
+.para2{
+    margin-top: 15px;
+}
+.para1,.para2{
+    line-height: 35px;
+}
+
+.hero-buttons{
+    margin-top: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(53, 52, 52);
+    background-color:rgb(250, 183, 214);;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:130px;
+    position: relative;
+    left:12px;
+}
+.boxes{
+    display: block;
+    padding: 10px;
+    margin:5px 10px;
+    gap:10px;
+
+}
+
+}

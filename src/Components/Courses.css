@@ -1,0 +1,93 @@
+.course {
+  text-align: center;
+  margin-top: 650px;
+  padding: 0 20px;
+}
+
+.co-title {
+  color: rgb(22, 21, 21);
+  font-weight: 600;
+}
+
+.cour {
+  color: rgb(14, 47, 117);
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.course-price {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  width: 320px;
+  height: 430px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 25px;
+  color:rgb(46, 42, 42);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(14, 47, 117);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.price-card button:hover{
+    background-color: rgb(143, 158, 172);
+    color:black;
+}
+
+.price-side{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    color: rgb(14, 47, 117);
+    margin-top: 10px;
+
+}
+
+.prices-images{
+    width:280px;
+    margin:0px;
+    height: 200px;
+}
+
+.price-title{
+    margin-top: 20px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .course {
+    margin-top: 40px;
+  }
+
+  .cour {
+    font-size: 24px;
+  }
+
+  .course-price {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .price-card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
